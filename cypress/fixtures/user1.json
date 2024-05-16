@@ -1,0 +1,82 @@
+{
+
+    "website": {
+        "url_web": "http://zero.webappsecurity.com/login.html"
+},
+    "user_valid": {
+        "valid_username": "username",
+        "valid_password": "password"
+}, 
+    "Payee": {
+        "value1": "Sprint",
+        "value2": "Bank of America",
+        "value3": "Apple",
+        "value4": "Wells Fargot"
+},
+    "Account": {
+        "value1": "Savings",
+        "value2": "Checking",
+        "value3": "Savings",
+        "value4": "Loan",
+        "value5": "Credit Card",
+        "value6": "Brokerage"
+},
+    "Amount": {
+        "value1": "100"
+},
+    "Date": {
+        "value1": "2024-05-07"
+},
+    "Description": {
+        "value1": "pembayaran sekolah"
+}, 
+    "Payee_Name": { 
+        "value1": "Pilla"
+},
+    "Payee_Address": {
+        "value1": "JL. Kesenian"
+
+},
+    "Payee_Account": {
+        "value1": "Credit Cart"
+
+},
+    "Payee_Detail": {
+    "value1": "pembayaran sekolah"
+
+},
+    "Currency":  {
+    "value1": "AUD",
+    "value2": "CAD",
+    "value3": "CHF",
+    "value4": "CNY",
+    "value5": "DKK",
+    "value6": "EUR",
+    "value7": "GBP",
+    "value8": "HKD",
+    "value9": "JPY",
+    "value10": "MXN",
+    "value11": "NOK",
+    "value12": "NZD",
+    "value13": "SEK",
+    "value14": "SGD",
+    "value15": "THB"
+
+},
+    "Amount2":  {
+    "value1": "100" 
+
+},
+    "Radio_Button":  {
+    "USD": "#pc_inDollars_true",
+    "SelectedCurrency": "#pc_inDollars_false"
+}
+
+
+
+
+
+
+
+
+}
