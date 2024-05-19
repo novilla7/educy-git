@@ -20,9 +20,9 @@ describe('Login / Logout Test', function() {
     })
 
     it('Should login to application with valid data', () => {
-        cy.fixture("user").then(user => {
-            const username = user.username
-            const password = user.password
+        cy.fixture("user2").then(user2 => {
+            const username = user2.username
+            const password = user2.password
 
         cy.get('#user_login').clear()
         cy.get('#user_login').type(username)
