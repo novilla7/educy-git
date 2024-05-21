@@ -1,4 +1,24 @@
+
 {
-  "username": "username",
-  "password": "password"
+  "url_webite": {
+    "url_web": "https://www.saucedemo.com/"
+},
+  "user_valid_LL": {
+    "username": "username",
+    "password": "password"
+},
+    "user_valid_SD": {
+    "username_demo": "standard_user",
+    "password_demo": "secret_sauce"
+}
+
+
+
+
+
+
+
+
+
+
 }
