@@ -42,6 +42,8 @@ Cypress.Commands.add('login_valid', (username_demo, password_demo) => {
     cy.get('#login-button').click()
 })
 
+// navbar punya zero demo
+
 Cypress.Commands.add('navigate_OnlineBanking', () => {
     cy.get('#onlineBankingMenu').click()
     cy.url().should('include', 'online-banking.html')
@@ -60,7 +62,7 @@ Cypress.Commands.add('navigate_Homepage', () => {
     cy.get('h4').should('contain.text', 'Online Banking')
 })
 
-// it login/logout dari saucedemo
+// login/logout test case dari saucedemo
 
 Cypress.Commands.add('invalid_UP', () => {
     cy.get('#user-name').type('admin')
