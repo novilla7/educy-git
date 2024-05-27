@@ -1,19 +1,19 @@
 /// <reference types="cypress" />
 
-import { Given, When, Then, } from "@badeball/cypress-cucumber-preprocessor";
+import SearchPage from "../pageObject/searchPage";
+const { Given, When, Then, } = require ("@badeball/cypress-cucumber-preprocessor");
 
 Given('I visit the Zero Bank homepage', () => {
-    cy.visit('http://zero.webappsecurity.com/index.html')
+    SearchPage.visit();
 })
 
-When('I enter {string} into the search box', (searching) => {
-    cy.get('#searchTerm').click().type(searching)
-    cy.get('#searchTerm').type('{enter}')
+When('I enter {string} into the search box', () => {
+    SearchPage.search('Bank')
+    SearchPage.enter();
 })
 
 Then('I should see search results related to bank', () => {
 // cy.url().should('include', '/search.html?searchTerm=Bank');
-    cy.get('h2').should('exist') // Pastikan elemen <h2> ada di halaman
-    cy.get('h2').should('contain', 'Search Results:')
-  
+// cy.get('h2').should('exist') // Pastikan elemen <h2> ada di halaman
+    SearchPage.succesfull_Search();
 })
