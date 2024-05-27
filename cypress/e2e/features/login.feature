@@ -7,6 +7,6 @@ Feature: Login to Zero Bank
   Background: I open the Zero Bank login page
     Given I open the Zero Bank login page
 
-  Scenario: Login with valid data credentials
+  Scenario: Login with valid credentials
     When I submit login with valid credentials
-    Then I should see the account summary
+    Then I should see the account summary page
