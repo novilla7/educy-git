@@ -1,0 +1,22 @@
+carilah tools selain jmeter sebutkan nama tools kelebihan dan kekurangan dibanding jmeter
+
+
+LoadRunner
+Kelebihan:
+Mendukung berbagai protokol dan aplikasi.
+Kemampuan analisis dan laporan yang sangat baik.
+Sangat kuat untuk pengujian beban pada aplikasi besar.
+Kekurangan:
+Lisensi yang mahal dan biaya operasional yang tinggi.
+Memerlukan sumber daya yang cukup besar untuk menjalankan skenario pengujian.
+
+BlazeMeter
+Kelebihan:
+Berbasis cloud, memungkinkan skala pengujian yang besar.
+Integrasi dengan berbagai alat dan platform.
+Antarmuka pengguna yang ramah pengguna.
+Kekurangan:
+Biaya langganan untuk fitur premium.
+Ketergantungan pada konektivitas internet untuk pengujian berbasis cloud.
+
+
