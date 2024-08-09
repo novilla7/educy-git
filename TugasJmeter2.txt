@@ -1,0 +1,7 @@
+Menurut anda, jenis report manakah dari jmeter yg mudah dipahami ? berikan penjelasannya
+
+View Results Tree adalah salah satu report yang mudah dipahami karena menampilkan detail response saat 
+melakukan pengujian, contohnya :
+
+Request Details: akan menampilkan informasi tentang permintaan yang dikirim, seperti metode HTTP, URL.
+Response Data: akan menampilkan data respons yang diterima dari server, sehingga Anda dapat memverifikasi apakah respons sesuai harapan
