@@ -1,0 +1,8 @@
+Lakukan performance test pada url https://regres.in/api/users?page2 dengan ketentuan:
+•	Numbers o thears: 100
+•	Loop count: 10,
+•	Ramp-up reriod:100
+Lalu, jelaskan hasilnya berdasarkan data reporting yang didapat, reporting dapat meliputi graph dan table, reporting yg lain bersifat optional untuk menambah wawasan anda.
+
+
+Link drive : https://docs.google.com/document/d/1ODYcKhWdtPb4wemVLEV2ICvcfpr75nQgkfOcBnQ0zB8/edit?usp=sharing
